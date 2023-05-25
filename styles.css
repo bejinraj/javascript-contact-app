@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-align: center;
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.emp {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #2d0658;
+  margin-bottom: 20px;
+}
+
+input {
+  display: inline;
+  width: 100%;
+  border-radius: 3px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #7d45ba;
+}
+::placeholder {
+  color: #7d45ba;
+}
+
+/* Leftside Page */
+
+.leftside-page {
+  height: 90vh;
+  margin: 32px 16px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 240, 225, 1) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.employee-contact {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.heading-content {
+  display: flex;
+  margin: 30px 15px;
+  padding: 20px 5px;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.heading-text {
+  color: #2d0658;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.details-heading {
+  display: flex;
+  color: blueviolet;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.form-container {
+  margin: 0 16px;
+}
+
+.input-name,
+.input-contact,
+.input-date {
+  display: grid;
+  gap: 10px;
+}
+
+.input-name {
+  grid-template-columns: 1fr 1fr;
+}
+
+.input-contact, .input-date {
+  grid-template-columns: 0.8fr 1fr;
+}
+
+.save-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+.save-btn {
+  background-color: #7d45ba;
+}
+
+/* Rightside Page */
+
+.contacts-container {
+  padding: 10px 20px;
+  margin: 32px 16px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.contact-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-con {
+  width: 50px;
+  height: 50px;
+}
+
+.fa-solid,
+.fa-regular {
+  color: rgb(148, 73, 223);
+  color: linear-gradient(
+    180deg,
+    rgba(148, 73, 223, 1) 75%,
+    rgba(55, 29, 214, 1) 100%
+  );
+}
+
+.emp-contact {
+  display: flex;
+  gap: 100px;
+}
+
+.emp-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.edit-btn {
+  background-color: #4274bf;
+}
+
+.delete-btn {
+  background-color: #d64742;
+}
+
+.no-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 100vh;
+  margin: 32px 50px;
+  color: rgb(71, 126, 204);
+  background-image: url(./images/employees-waves.gif);
+  font-weight: bolder;
+  font-size: 30px;
+  background-repeat: no-repeat;
+}
+
+/* dummy */
+
+/* .input-name {
+  display: flex;
+  width: 100%;
+}
+
+input[name="fname"],
+input[name="lname"] {
+  width: 100%;
+}
+
+input {
+  display: inline;
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #7d45ba;
+}
+
+.input-contact {
+  display: flex;
+  gap: 20px;
+} */
+
+/* input[type="tel"] {
+  flex-grow: 1;
+}
+
+input[type="email"] {
+  flex-grow: 2;
+} */
+
+/* .input-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-date {
+  width: 40%;
+  color: #7d45ba;
+} */

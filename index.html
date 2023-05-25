@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact app</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="employee-contact">
+      <div class="leftside-page">
+        <div class="heading-content">
+          <div class="heading-text">
+            <h3>Employee Contact</h3>
+          </div>
+          <div>
+            <img src="./images/image1.png" alt="logo" class="logo" />
+          </div>
+        </div>
+
+        <div class="details-heading">
+          <h4>Personal Details</h4>
+        </div>
+        <form action="" id="contact-form">
+          <div class="form-container">
+            <div class="input-name">
+              <div>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  placeholder="First Name"
+                /><br />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+
+            <div class="input-contact">
+              <div>
+                <input
+                  type="tel"
+                  id="mobile-no"
+                  name="mobile-no"
+                  placeholder="Mobile No"
+                  pattern="[0-9]{10}"
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+
+            <div class="input-date">
+              <input
+                type="date"
+                id="date"
+                name="date"
+                placeholder="Date Of Birth"
+              />
+            </div>
+
+            <div class="input-address">
+              <input
+                type="text"
+                id="address"
+                name="address"
+                placeholder="Address"
+              />
+            </div>
+
+            <div class="save-btn-div" id="save-btn">
+              <button class="btn save-btn" type="submit">SAVE</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="rightside-page">
+        <div class="contacts-container" id="employer-contact"></div>
+
+        <div class="no-data" id="no-data">
+          <h1>No Data Found</h1>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
